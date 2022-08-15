@@ -1,0 +1,55 @@
+<!--? Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!--? Оболочка документа, указываем язык содерждимого -->
+<html lang="ru">
+<!--? Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!--? Кодировка страницы в браузере -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--? Отключаем формирование ссылки у номера телефона на iOS -->
+	<meta name="format-detection" content="telephone+no">
+	<!--? Заголовок страницы в браузере -->
+	<title>DEFAULT PROJECT</title>
+	<!--? Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wraper">
+		<header class="header">HEADER</header>
+		<main class="main">
+			<div class="search-form container">
+				<div class="search-form__icon">
+					<img src="img/icons/insta.svg" alt="search">
+				</div>
+				<div class="search-form__input">
+					<input type="text" class="search-form__input-field" value="" name="input-field" placeholder="Поиск...">
+					<div>Введено <span class="number">0</span> символов</div>
+				</div>
+			</div>
+			<div class="form2-block">
+				<div class="container">
+					<div class="form2">
+						<form action="#!" method="post" enctype="multipart/form-data" class="search-form2">
+							<div class="search-form2__col">
+								<input type="text" name="search-field" class="search-form2__text" placeholder="Search...">
+							</div>
+							<div class="search-form2__col">
+								<button type="submit" class="search-form2__btn">
+									<img src="img/icons/insta.svg" alt="instaimg">
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">FOOTER</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
